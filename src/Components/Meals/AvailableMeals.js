@@ -12,7 +12,7 @@ const AvailableMeals = () => {
 			(async () => {
 				try {
 					const response = await fetch(
-						"https://react-meals-fcdac-default-rtdb.firebaseio.com/AvailableMeals.json"
+						process.env.REACT_APP_BASE_URL + "AvailableMeals.json"
 					);
 					if (!response.ok) {
 						throw new Error("Something went wrong!");

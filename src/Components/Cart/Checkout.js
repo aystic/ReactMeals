@@ -13,7 +13,7 @@ const Checkout = (props) => {
 			setError(null);
 			setIsLoading(true);
 			const response = await fetch(
-				"https://react-meals-fcdac-default-rtdb.firebaseio.com/orders.json",
+				process.env.REACT_APP_BASE_URL + "orders.json",
 				{
 					method: "POST",
 					headers: {
@@ -76,7 +76,6 @@ const Checkout = (props) => {
 	if (isNameValid && isCityValid && isPincodeValid && isStreetValid)
 		formIsValid = true;
 	const confirmHandler = (event) => {
-		// https://react-meals-fcdac-default-rtdb.firebaseio.com/orders.json
 		event.preventDefault();
 		const orderDetails = {
 			orderDate: Date.now(),
