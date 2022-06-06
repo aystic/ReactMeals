@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/ReactMeals/static/css/main.b1869755.css",
-    "main.js": "/ReactMeals/static/js/main.020f8d71.js",
-    "static/js/787.b8761a8c.chunk.js": "/ReactMeals/static/js/787.b8761a8c.chunk.js",
+    "main.css": "/ReactMeals/static/css/main.65967f65.css",
+    "main.js": "/ReactMeals/static/js/main.bfd9bc34.js",
+    "static/js/27.b5b9f024.chunk.js": "/ReactMeals/static/js/27.b5b9f024.chunk.js",
     "static/media/meals.jpg": "/ReactMeals/static/media/meals.2971f633fc1382581cbf.jpg",
-    "index.html": "/ReactMeals/index.html",
-    "main.b1869755.css.map": "/ReactMeals/static/css/main.b1869755.css.map",
-    "main.020f8d71.js.map": "/ReactMeals/static/js/main.020f8d71.js.map",
-    "787.b8761a8c.chunk.js.map": "/ReactMeals/static/js/787.b8761a8c.chunk.js.map"
+    "index.html": "/ReactMeals/index.html"
   },
   "entrypoints": [
-    "static/css/main.b1869755.css",
-    "static/js/main.020f8d71.js"
+    "static/css/main.65967f65.css",
+    "static/js/main.bfd9bc34.js"
   ]
 }
