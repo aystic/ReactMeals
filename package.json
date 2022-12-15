@@ -1,6 +1,6 @@
 {
   "homepage": "https://aystic.github.io/ReactMeals",
-  "name": "react-meals",
+  "name": "food-store",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
